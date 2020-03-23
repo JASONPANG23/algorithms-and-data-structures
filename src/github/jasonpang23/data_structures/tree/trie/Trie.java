@@ -67,6 +67,23 @@ public class Trie {
         return size ;
     }
 
+    /**
+     * 查询是否有单词以prefix为前缀
+     * @param prefix 前缀
+     * @return
+     */
+    public boolean isPrefix(String prefix){
+        Node cur = root ;
+        char[] chars = prefix.toCharArray();
+        for (char c : chars){
+            Node next = cur.next.get(c);
+            if(next == null)
+                return false;
+            cur = next ;
+        }
+        return true;
+    }
+
     private class Node{
         /**
          * 标记当前节点是否是一个单词的结尾

@@ -1,10 +1,8 @@
 package github.jasonpang23.data_structures.tree.trie;
 
-import github.jasonpang23.data_structures.binary_search_tree.BST;
 import github.jasonpang23.data_structures.set.BSTSet;
 
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * 什么时Trie？
@@ -45,6 +43,7 @@ public class Main {
             System.out.println("Total different words:"+trie.getSize());
             System.out.println("BSTSet :"+time+"s");
         }
+
     }
 
 }

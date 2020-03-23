@@ -1,9 +1,9 @@
-package github.jasonpang23.data_structures.binary_search_tree;
+package github.jasonpang23.data_structures.tree.binary_search_tree;
 
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class BST<E extends Comparable<E>> {
+public class BST<E extends Comparable<E> > {
 
     private Node root ;
     private int size  ;

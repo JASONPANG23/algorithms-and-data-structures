@@ -1,6 +1,6 @@
 package github.jasonpang23.data_structures.set;
 
-import github.jasonpang23.data_structures.binary_search_tree.BST;
+import github.jasonpang23.data_structures.tree.binary_search_tree.BST;
 
 public class BSTSet<E extends Comparable<E>> implements Set<E> {
 
