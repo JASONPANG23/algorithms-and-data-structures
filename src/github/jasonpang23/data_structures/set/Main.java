@@ -1,12 +1,14 @@
 package github.jasonpang23.data_structures.set;
 
+import github.jasonpang23.data_structures.resources.FileOperation;
+
 import java.util.ArrayList;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        String filename = "src/com/jason/data_structures/set/pride-and-prejudice.txt";
+        String filename = "src/github/jasonpang23/data_structures/resources/pride-and-prejudice.txt";
 
         BSTSet<String> bstSet = new BSTSet<>();
         double time1 = testSet(bstSet, filename);

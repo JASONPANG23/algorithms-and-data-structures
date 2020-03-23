@@ -1,5 +1,6 @@
 package github.jasonpang23.data_structures.tree.trie;
 
+import github.jasonpang23.data_structures.resources.FileOperation;
 import github.jasonpang23.data_structures.set.BSTSet;
 
 import java.util.ArrayList;
@@ -17,7 +18,7 @@ public class Main {
         System.out.println("Pride and Prejudice");
 
         ArrayList<String> words = new ArrayList<>() ;
-        if(FileOperation.readFile("src/github/jasonpang23/data_structures/tree/trie/pride-and-prejudice.txt",words)){
+        if(FileOperation.readFile("src/github/jasonpang23/data_structures/resources/pride-and-prejudice.txt",words)){
 
             // 测试BSTSet
             long startTime = System.nanoTime() ;

@@ -1,5 +1,6 @@
 package github.jasonpang23.data_structures.tree.avl ;
-import github.jasonpang23.data_structures.tree.avl.FileOperation;
+
+import github.jasonpang23.data_structures.resources.FileOperation;
 
 import java.util.ArrayList;
 
@@ -174,7 +175,7 @@ public class BST<K extends Comparable<K>, V> {
         System.out.println("Pride and Prejudice");
 
         ArrayList<String> words = new ArrayList<>();
-        if(FileOperation.readFile("pride-and-prejudice.txt", words)) {
+        if(FileOperation.readFile("src/github/jasonpang23/data_structures/resources/pride-and-prejudice.txt", words)) {
             System.out.println("Total words: " + words.size());
 
             BST<String, Integer> map = new BST<>();

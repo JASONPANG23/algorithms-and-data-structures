@@ -1,4 +1,4 @@
-package github.jasonpang23.data_structures.tree.trie;
+package github.jasonpang23.data_structures.resources;
 
 import java.io.BufferedInputStream;
 import java.io.File;

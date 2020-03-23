@@ -2,6 +2,8 @@ package github.jasonpang23.data_structures.tree.avl;
 
 
 
+import github.jasonpang23.data_structures.resources.FileOperation;
+
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -15,7 +17,7 @@ public class Main {
         System.out.println("Pride and Prejudice");
 
         ArrayList<String> words = new ArrayList<>();
-        if(FileOperation.readFile("src/github/jasonpang23/data_structures/tree/avl/pride-and-prejudice.txt", words)) {
+        if(FileOperation.readFile("src/github/jasonpang23/data_structures/resources/pride-and-prejudice.txt", words)) {
             System.out.println("Total words: " + words.size());
 
             Collections.sort(words);

@@ -1,5 +1,7 @@
 package github.jasonpang23.data_structures.map;
 
+import github.jasonpang23.data_structures.resources.FileOperation;
+
 import java.util.ArrayList;
 
 public class BSTMap<K extends Comparable<K>,V> implements Map<K,V> {
@@ -171,7 +173,7 @@ public class BSTMap<K extends Comparable<K>,V> implements Map<K,V> {
         System.out.println("Pride and Prejudice");
 
         ArrayList<String> words = new ArrayList<>();
-        if(FileOperation.readFile("src/com/jason/data_structures/map/pride-and-prejudice.txt", words)) {
+        if(FileOperation.readFile("src/github/jasonpang23/data_structures/resources/pride-and-prejudice.txt", words)) {
             System.out.println("Total words: " + words.size());
 
             BSTMap<String, Integer> map = new BSTMap<>();
